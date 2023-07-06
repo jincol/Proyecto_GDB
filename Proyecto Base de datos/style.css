@@ -35,30 +35,25 @@ body {
 }
 
 .container-login img {
-    width: 40%;
-    height: 400px;
+    padding: 2rem 0;
+    width: 30%;
     object-fit: cover;
 }
 
-body :nth-child() {
-    background-color: #64c9d3;
-}
-
 .container_acces {
-    padding: 0 1rem;
+    padding: 2rem 1rem;
     text-align: center;
-    margin-top: 2rem;
 }
 
 .input {
     margin: .5rem 0;
     border: thin solid #64c9d3;
     border-radius: 2rem;
-    padding: .5rem;
+    padding: .6rem 2rem;
 }
 
 .input::placeholder {
-    font-size: .7rem;
+    font-size: .9rem;
     color: rgba(0, 0, 0, 0.322);
 }
 
@@ -70,7 +65,7 @@ body :nth-child() {
     border: none;
     background-color: #64c9d3;
     border-radius: 1rem;
-    padding: .2rem .5rem;
+    padding: .5rem .9rem;
     margin: 1rem 0 3rem 0;
     cursor: pointer;
 }
@@ -304,8 +299,5 @@ body :nth-child() {
     font-size: 1.5rem;
     list-style: none;
     margin-top: 1rem;
-}
-
-.contacts ul li a{
-        color: #64c9d3;
+    color: #64c9d3;
 }
