@@ -304,5 +304,8 @@ body :nth-child() {
     font-size: 1.5rem;
     list-style: none;
     margin-top: 1rem;
-    color: #64c9d3;
+}
+
+.contacts ul li a{
+        color: #64c9d3;
 }
