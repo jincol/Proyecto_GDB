@@ -35,25 +35,30 @@ body {
 }
 
 .container-login img {
-    padding: 2rem 0;
-    width: 30%;
+    width: 40%;
+    height: 400px;
     object-fit: cover;
 }
 
+body :nth-child() {
+    background-color: #64c9d3;
+}
+
 .container_acces {
-    padding: 2rem 1rem;
+    padding: 0 1rem;
     text-align: center;
+    margin-top: 2rem;
 }
 
 .input {
     margin: .5rem 0;
     border: thin solid #64c9d3;
     border-radius: 2rem;
-    padding: .6rem 2rem;
+    padding: .5rem;
 }
 
 .input::placeholder {
-    font-size: .9rem;
+    font-size: .7rem;
     color: rgba(0, 0, 0, 0.322);
 }
 
@@ -65,7 +70,7 @@ body {
     border: none;
     background-color: #64c9d3;
     border-radius: 1rem;
-    padding: .5rem .9rem;
+    padding: .2rem .5rem;
     margin: 1rem 0 3rem 0;
     cursor: pointer;
 }
